@@ -211,7 +211,7 @@ if __name__ == '__main__':
     print('{} images found to predict'.format(num_image_tiles))
     
     # create dataloader
-    test_loader = torch.utils.data.DataLoader(test_dataset,batch_size=500,shuffle=False)
+    test_loader = torch.utils.data.DataLoader(test_dataset,batch_size=100,shuffle=False)
     
     test_predictions = {'Team':[], 'Person':[]}
     test_targets = {'Team':[], 'Person':[]}
