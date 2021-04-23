@@ -1,3 +1,0 @@
-#pragma once
-#define _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS
-
